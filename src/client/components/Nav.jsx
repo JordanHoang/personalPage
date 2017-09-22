@@ -11,7 +11,7 @@ class Nav extends React.Component {
             <li><Link className="routeLinks" to='/'>HOME</Link></li>
             <li><Link className="routeLinks" to='/portfolio'>PORTFOLIO</Link></li>
             <li>RESUME</li>
-            <li>ABOUT</li>
+            <li><Link className="routeLinks" to='/about'>ABOUT</Link></li>
             <li id="contact"><Link className="routeLinks routeLinksContact" to='/contact'>CONTACT</Link></li>
           </div>
         </ul>

@@ -9,7 +9,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <Background backgroundType={'portfolio'} heading={'Portfolio'} subheading={`Applications I've Built`}/>
+        <Background backgroundType={'portfolio'} heading={'PORTFOLIO'} subheading={`Applications I've Built`}/>
         <Grid>
           <Row>
             <Col xs={12} md={7}>
@@ -21,8 +21,8 @@ class Portfolio extends React.Component {
                  to iteract with each other via payments, documents, and messages.
                 </p>
                 <p>Application utilizes Braintree Marketplace's API to
-                handle receving and send payments
-                to the correct merchant.
+                handle receving and sending payments
+                from user to user.
                 </p>
             </Col>
           </Row>
@@ -33,6 +33,7 @@ class Portfolio extends React.Component {
                 <p>Web application that queries multiple users' calendars
                 to find time slots that are available for everybody.
                 </p>
+                <p>The application uses Google Calendar's API to retrieve calendar data.</p>
             </Col>
             <Col xs={12} md={7}>
               <img className="macbook" src={macbookConcreet} />

@@ -4,6 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 import Home from './Home.jsx'
 import Contact from './Contact.jsx'
 import Portfolio from './Portfolio.jsx'
+import About from './About.jsx'
 
 class App extends React.Component {
 
@@ -14,6 +15,7 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
         </Switch>
       </main>
     )

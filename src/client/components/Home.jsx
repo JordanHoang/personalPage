@@ -5,7 +5,9 @@ class Home extends React.Component {
 
   render() {
     return(
-      <Background backgroundType={'home'} heading={'Jordan Hoang'} subheading={'Software Engineer'}/>
+      <div>
+        <Background backgroundType={'home'} heading={'JORDAN HOANG'} subheading={'Software Engineer'}/>
+      </div>
     )
   }
 }

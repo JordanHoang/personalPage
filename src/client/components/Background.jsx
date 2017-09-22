@@ -9,11 +9,12 @@ class Background extends React.Component {
 
   render() {
     return (
-      <div className={this.props.backgroundType}>
+      <div className='background' id={this.props.backgroundType}>
         <Nav/>
         <br/>
         <div id="nameAndTitle">
-          <h1>{this.props.heading}</h1>
+          <h1 className="heading">{this.props.heading}</h1>
+          <h3 className="subheading">{this.props.subheading}</h3>
         </div>
       </div>
     )
