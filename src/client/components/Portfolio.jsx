@@ -2,6 +2,7 @@ import React from 'react'
 import Background from './Background.jsx'
 import macbookRentopia from '../images/macbookRentopia.png'
 import macbookConcreet from '../images/macbookConcreet.png'
+import macbookWorkoutLog from '../images/macbookWorkoutLog.png'
 import { Grid, Row, Col } from 'react-bootstrap';
 
 class Portfolio extends React.Component {
@@ -40,6 +41,21 @@ class Portfolio extends React.Component {
             </Col>
           </Row>
           <hr/>
+          <Row>
+            <Col xs={12} md={7}>
+              <img className="macbook" src={macbookWorkoutLog} />
+            </Col>
+            <Col xs={12} md={5}>
+              <a href="https://github.com/JordanHoang/workout.log" target="_blank"><h1>workout.log()</h1></a>
+                <p>Web application that allows users to track their daily caloric
+                intake and expenditure.
+                </p>
+                <p>Application utilizes Nutritionix's API to
+                allow users to search the largest verified nutrition database
+                to get accurate nutritional information on the foods they've eaten.
+                </p>
+            </Col>
+          </Row>
         </Grid>
       </div>
     )
