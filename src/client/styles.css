@@ -1,0 +1,96 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+hr {
+  color: black !important;
+}
+
+.page {
+  height: 100vh;
+}
+
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/homeBackdrop.png');
+  background-size: cover;
+  height: 100%;
+}
+
+.portfolio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/portfolioBackdrop.jpeg');
+  background-size: cover;
+  height: 100%;
+}
+
+.navbar {
+  margin: 0px;
+  color: white;
+}
+
+.navbar h3 {
+  margin: 0px;
+  display: inline;
+}
+
+.navbar ul {
+  margin: 0px;
+}
+
+.navbar li {
+  display: inline;
+  padding: 20px 35px;
+  /*font-size: 20px;*/
+}
+
+.links {
+  display: inline-block;
+  float: right;
+  margin: 40px 20px 0px 20px;
+}
+
+.routeLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.routeLinksContact {
+  color: black;
+}
+
+#contact {
+  background-color: white;
+  color: black !important;
+}
+
+#contact:hover {
+  background-color: rgba(189, 195, 199,1.0);
+}
+
+#nameAndTitle {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
+}
+
+.portfolioApp {
+  width: 90%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.macbook {
+  width: 100%;
+}
+
+.appDescription {
+  display: inline-block;
+  vertical-align: top;
+}
