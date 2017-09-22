@@ -10,7 +10,9 @@ class About extends React.Component {
       <div className="aboutContainer">
         <Background backgroundType={'about'} heading={'ABOUT'} subheading={'Some things about me!'}/>
         <Timeline />
-        <hr/>
+        <div className="horizontalLine">
+          <hr/>
+        </div>
         <PhotoGrid/>
       </div>
     )

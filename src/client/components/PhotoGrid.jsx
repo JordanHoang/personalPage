@@ -19,7 +19,7 @@ const styles = {
     width: 700,
     height: 630,
     overflowY: 'auto',
-    marginBottom: 100
+    marginBottom: 25
   }
 }
 
@@ -38,6 +38,11 @@ const tilesData = [
     title: 'Breckenridge, CO, March 2016'
   },
   {
+    img: grad,
+    title: 'Graduated from the greatest university in the world',
+    featured: true
+  },
+  {
     img: teton,
     title: 'Grand Teton, WY, Summer 2016'
 
@@ -45,11 +50,6 @@ const tilesData = [
   {
     img: greece,
     title: 'Athens, Greece, March 2015'
-  },
-  {
-    img: grad,
-    title: 'Graduated from the greatest university in the world',
-    featured: true
   },
   {
     img: deepWaterSolo,

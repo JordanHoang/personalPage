@@ -19,8 +19,9 @@ body {
     to   { opacity: 1; }
 }
 
-hr {
-  color: black !important;
+.horizontalLine hr {
+  margin: 40 auto;
+  width: 80% !important;
 }
 
 .page {
@@ -42,6 +43,10 @@ hr {
 
 #about {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/austinBackdrop.png');
+}
+
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/contactBackdrop.jpeg'); 
 }
 
 .navbar {
@@ -73,18 +78,19 @@ hr {
 .routeLinks {
   text-decoration: none;
   color: white;
+  text-decoration: none !important;
 }
 
 .routeLinksContact {
   color: black;
 }
 
-#contact {
+#contactLink {
   background-color: white;
   color: black !important;
 }
 
-#contact:hover {
+#contactLink:hover {
   background-color: rgba(189, 195, 199,1.0);
 }
 
@@ -197,4 +203,19 @@ hr {
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent rgba(34, 49, 63, 1);
+}
+
+.socialMediaContainer {
+  text-align: center;
+}
+
+.socialMedia {
+  text-align: center;
+  background: black;
+  margin-bottom: 10px;
+}
+
+.socialMedia img {
+  margin: 20px;
+  width: 50px;
 }
