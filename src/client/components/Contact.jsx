@@ -24,12 +24,14 @@ class Contact extends React.Component {
             <Col xs={12} md={6}>
               <h1>Send me a message</h1>
               <form id="messageForm">
-                <label>First Name</label><input name="firstName"></input>
-                <label>Last Name</label><input name="lastName"></input>
+                <label>First Name</label><br/><input name="firstName"></input>
                 <br/>
-                <label>Email Address</label><input name="email"></input>
+                <label>Last Name</label><br/><input name="lastName"></input>
                 <br/>
-                <label>Message</label><textarea name="message"></textarea>
+                <label>Email Address</label><br/><input name="email"></input>
+                <br/>
+                <label>Message</label><br/><textarea rows="4" cols="50" name="message"></textarea>
+                <br/>
                 <button type="submit">Submit</button>
               </form>
             </Col>
