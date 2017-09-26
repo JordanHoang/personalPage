@@ -30,6 +30,7 @@ app.post('/sendEmail', (req, res) => {
       console.log(err)
     } else {
       console.log('Message sent: ' + info.response)
+      res.sendStatus(201)
     }
   })
 })

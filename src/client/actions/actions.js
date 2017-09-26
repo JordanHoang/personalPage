@@ -9,9 +9,9 @@ export function sendEmail(message, cb) {
     lastName: message.lastName,
     email: message.emailAddress,
     message: message.message
-  }).then(() => {
-
-  }).catch(() => {
-
+  }).then((res) => {
+    cb(res)
+  }).catch((err) => {
+    console.log(err)
   })
 }

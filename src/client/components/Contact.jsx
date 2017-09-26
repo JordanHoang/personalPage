@@ -1,4 +1,5 @@
 import React from 'react'
+import $ from 'jquery'
 import Background from './Background.jsx'
 import { Grid, Row, Col } from 'react-bootstrap';
 import github from '../images/github-sign.png'
@@ -20,7 +21,8 @@ class Contact extends React.Component {
     }
 
     sendEmail(message, (result) => {
-      console.log(result)
+      console.log('Successful email')
+      $('#messageForm').trigger('reset')
     })
   }
 
