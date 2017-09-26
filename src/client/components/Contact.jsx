@@ -6,7 +6,23 @@ import linkedIn from '../images/linkedin-logo.png'
 import facebook from '../images/facebook-logo.png'
 import instagram from '../images/instagram-logo.png'
 
+import { sendEmail } from '../actions/actions'
+
 class Contact extends React.Component {
+
+  handleMessage(e) {
+    e.preventDefault()
+    let message = {
+      firstName: e.target.firstName.value,
+      lastName: e.target.lastName.value,
+      email: e.target.email.value,
+      message: e.target.message.value
+    }
+
+    sendEmail(message, (result) => {
+      console.log(result)
+    })
+  }
 
   render() {
     return (
@@ -22,7 +38,7 @@ class Contact extends React.Component {
             </Col>
             <Col xs={12} md={6}>
               <h1>Send me a message</h1>
-              <form id="messageForm">
+              <form id="messageForm" onSubmit={this.handleMessage.bind(this)}>
                 <label>First Name</label><br/><input name="firstName"></input>
                 <br/>
                 <label>Last Name</label><br/><input name="lastName"></input>

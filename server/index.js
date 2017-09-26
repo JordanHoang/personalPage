@@ -1,9 +1,38 @@
 const express = require('express')
 const path = require('path')
 const cors = require('cors')
+const parser = require('body-parser');
+const nodemailer = require('nodemailer')
+const emailConfig = require('../emailConfig')
 
 const app = express()
 app.use(cors())
+app.use(parser())
+
+app.post('/sendEmail', (req, res) => {
+  let transporter = nodemailer.createTransport({
+    service: 'Gmail',
+    auth: {
+      user: emailConfig.EMAIL_ADDRESS,
+      pass: emailConfig.EMAIL_PW
+    }
+  })
+
+  let mailOptions = {
+    from: emailConfig.EMAIL_ADDRESS,
+    to: 'jordan.n.hoang@gmail.com',
+    subject: 'Email from Personal Website',
+    text: JSON.stringify(req.body),
+  }
+
+  transporter.sendMail(mailOptions, (err, info) => {
+    if (err) {
+      console.log(err)
+    } else {
+      console.log('Message sent: ' + info.response)
+    }
+  })
+})
 
 // ADD ADDITIONAL SERVER ROUTES ABOVE!!! WEBPACK CONFIGS //
 if (process.env.NODE_ENV !== 'production') {

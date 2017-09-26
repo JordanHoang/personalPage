@@ -266,6 +266,10 @@ body {
   padding: 10px 20px;
 }
 
+.submitButton:hover {
+  color: rgba(38, 194, 129, 1);
+}
+
 #technologies {
   text-align: center;
 }
