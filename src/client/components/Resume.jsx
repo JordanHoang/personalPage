@@ -11,7 +11,7 @@ const Resume = () => {
       <div className="resumeContainer">
         <div className="resumeDownload">
           <a href={resumePdf} download="Jordan_Hoang_Resume">
-            <h3 id="resumeLink">Download Resume</h3>
+            <h2 id="resumeLink">Download Resume</h2>
           </a>
         </div>
         <div className="resumeSection">

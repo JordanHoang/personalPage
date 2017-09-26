@@ -31,7 +31,7 @@ class Contact extends React.Component {
                 <br/>
                 <label>Message</label><br/><textarea rows="4" cols="50" name="message"></textarea>
                 <br/>
-                <button type="submit">Submit</button>
+                <button className="submitButton" type="submit">Submit</button>
               </form>
             </Col>
           </Row>

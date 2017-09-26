@@ -4,7 +4,6 @@ const path = require('path')
 const app = express()
 
 // ADD ADDITIONAL SERVER ROUTES ABOVE!!! WEBPACK CONFIGS //
-
 if (process.env.NODE_ENV !== 'production') {
   const webpackMiddleware = require('webpack-dev-middleware')
   const webpack = require('webpack')

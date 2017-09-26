@@ -17,7 +17,7 @@ class Portfolio extends React.Component {
               <img className="macbook" src={macbookRentopia} />
             </Col>
             <Col xs={12} md={5}>
-              <a href="http://www.myrentopia.com" target="_blank"><h1>Rentopia</h1></a>
+              <a className="appLink" href="http://www.myrentopia.com" target="_blank"><h1>Rentopia</h1></a>
                 <p>Web application that allows for tenants and landlords
                  to iteract with each other via payments, documents, and messages.
                 </p>
@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
           <hr/>
           <Row>
             <Col xs={12} md={5}>
-              <a href="http://concreet.date" target="_blank"><h1>Concreet</h1></a>
+              <a className="appLink" href="http://concreet.date" target="_blank"><h1>Concreet</h1></a>
                 <p>Web application that queries multiple users' calendars
                 to find time slots that are available for everybody.
                 </p>
@@ -46,7 +46,7 @@ class Portfolio extends React.Component {
               <img className="macbook" src={macbookWorkoutLog} />
             </Col>
             <Col xs={12} md={5}>
-              <a href="https://github.com/JordanHoang/workout.log" target="_blank"><h1>workout.log()</h1></a>
+              <a className="appLink" href="https://github.com/JordanHoang/workout.log" target="_blank"><h1>workout.log()</h1></a>
                 <p>Web application that allows users to track their daily caloric
                 intake and expenditure.
                 </p>

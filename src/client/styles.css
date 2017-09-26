@@ -123,6 +123,10 @@ body {
   margin: 0 auto;
 }
 
+.appLink {
+  color: rgba(38, 194, 129, 1);
+}
+
 .macbook {
   width: 100%;
 }
@@ -224,7 +228,7 @@ body {
   width: 50px;
 }
 
-.personalNarrative {
+.homeContainer {
   width: 60%;
   margin: 20px auto;
   font-size: 20px;
@@ -246,4 +250,27 @@ body {
 #resumeLink {
   display: inline-block;
   margin: 10px;
+  color: rgba(38, 194, 129, 1);
+  border-bottom: 1px solid transparent;
+}
+
+#resumeLink:hover {
+  color: rgba(34, 49, 63, 1);
+  border-bottom: 1px solid rgba(34, 49, 63, 1);
+}
+
+.submitButton {
+  background-color: rgba(34, 49, 63, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+#technologies {
+  text-align: center;
+}
+
+.technologyLogos img {
+  width: 100px;
+  margin: 0 10px;
 }
