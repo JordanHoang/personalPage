@@ -49,6 +49,10 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/contactBackdrop.jpeg'); 
 }
 
+#resume {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/resumeBackdrop.jpeg');  
+}
+
 .navbar {
   margin: 0px;
   color: white;
@@ -211,11 +215,35 @@ body {
 
 .socialMedia {
   text-align: center;
-  background: black;
+  background: rgba(34, 49, 63, 1);
   margin-bottom: 10px;
 }
 
 .socialMedia img {
   margin: 20px;
   width: 50px;
+}
+
+.personalNarrative {
+  width: 60%;
+  margin: 20px auto;
+  font-size: 20px;
+}
+
+.resumeContainer {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.resumeDownload {
+  text-align: center;
+}
+
+#resumeLink {
+  display: inline-block;
+  margin: 10px;
 }

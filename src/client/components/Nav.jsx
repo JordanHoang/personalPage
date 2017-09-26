@@ -10,7 +10,7 @@ class Nav extends React.Component {
           <div className="links">
             <li><Link className="routeLinks" to='/'>HOME</Link></li>
             <li><Link className="routeLinks" to='/portfolio'>PORTFOLIO</Link></li>
-            <li>RESUME</li>
+            <li><Link className="routeLinks" to='/resume'>RESUME</Link></li>
             <li><Link className="routeLinks" to='/about'>ABOUT</Link></li>
             <li id="contactLink"><Link className="routeLinks routeLinksContact" to='/contact'>CONTACT</Link></li>
           </div>

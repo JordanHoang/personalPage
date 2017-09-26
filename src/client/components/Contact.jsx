@@ -16,7 +16,6 @@ class Contact extends React.Component {
           <Row>
             <Col xs={12} md={6}>
               <h1>Contact me</h1>
-              <p>Feel free to reach out to me with any questions!</p>
               <p>I'd love to talk in person or on the phone about my skills and qualifications.</p>
               <p>jordan.n.hoang@gmail.com</p>
               <p>832.803.8853</p>
@@ -42,9 +41,9 @@ class Contact extends React.Component {
               <h1>Social Media</h1>
               <div className="socialMedia">
                 <a href="https://github.com/JordanHoang" target="_blank"><img src={github} /></a>
-                <a href="https://www.linkedin.com/in/jordan-hoang/"><img src={linkedIn} /></a>
-                <a href="https://www.facebook.com/jordan.hoang"><img src={facebook} /></a>
-                <a href="https://www.instagram.com/therealjhoang/"><img src={instagram} /></a>
+                <a href="https://www.linkedin.com/in/jordan-hoang/" target="_blank"><img src={linkedIn} /></a>
+                <a href="https://www.facebook.com/jordan.hoang" target="_blank"><img src={facebook} /></a>
+                <a href="https://www.instagram.com/therealjhoang/" target="_blank"><img src={instagram} /></a>
               </div>
             </Col>
           </Row>

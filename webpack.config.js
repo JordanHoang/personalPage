@@ -23,7 +23,7 @@ const config = {
         }),
         test: /\.css$/
       },
-      { test: /\.(jpe?g|png|gif|svg|JPG)$/,use: [{loader: 'url-loader',options: { limit: 40000 }},'image-webpack-loader']}
+      { test: /\.(jpe?g|png|gif|svg|JPG|pdf)$/,use: [{loader: 'url-loader',options: { limit: 40000 }},'image-webpack-loader']}
     ]
   },
   plugins: [
