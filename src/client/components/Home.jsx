@@ -40,8 +40,9 @@ class Home extends React.Component {
           </div>
           <hr/>
           <div className="technologies">
-            <h3>This website was built primarily using: </h3>
-              <h4>React + React Router | Node.js / Express | Webpack | React-Bootstrap</h4>
+            <h3>This website was built primarily using
+            : </h3>
+              <h4>React + React Router | Node.js + Express | Webpack | React-Bootstrap</h4>
           </div>
         </div>
         <Footer/>
