@@ -21,7 +21,7 @@ class Home extends React.Component {
             </p>
           </div>
           <hr/>
-          <div id="technologies">
+          <div className="technologies">
             <h3>Technologies I enjoy building with: </h3>
             <div className="technologyLogos">
               <a target="_blank" href="https://www.javascript.com/"><img src={jsLogo} /></a>
@@ -37,6 +37,11 @@ class Home extends React.Component {
             <p>
               I am currently looking for a Software Engineering position at a great company that would allow me to use my skills, experience, and passion to help them build useful, amazing applications.
             </p>
+          </div>
+          <hr/>
+          <div className="technologies">
+            <h3>This website was built primarily using: </h3>
+              <h4>React + React Router | Node.js / Express | Webpack | React-Bootstrap</h4>
           </div>
         </div>
         <Footer/>
