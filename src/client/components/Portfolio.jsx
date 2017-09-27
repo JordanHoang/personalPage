@@ -1,5 +1,6 @@
 import React from 'react'
 import Background from './Background.jsx'
+import Footer from './Footer.jsx'
 import macbookRentopia from '../images/macbookRentopia.png'
 import macbookConcreet from '../images/macbookConcreet.png'
 import macbookWorkoutLog from '../images/macbookWorkoutLog.png'
@@ -57,6 +58,7 @@ class Portfolio extends React.Component {
             </Col>
           </Row>
         </Grid>
+        <Footer/>
       </div>
     )
   }

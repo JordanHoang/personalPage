@@ -34,9 +34,9 @@ class Contact extends React.Component {
           <Row>
             <Col xs={12} md={6}>
               <h1>Contact me</h1>
-              <p>I'd love to talk in person or on the phone about my skills and qualifications.</p>
-              <p>jordan.n.hoang@gmail.com</p>
-              <p>832.803.8853</p>
+              <p>I'd love to talk in person, through email, or on the phone about my skills and qualifications.</p>
+              <a href="mailto:jordan.n.hoang@gmail.com"><p style={{"textDecoration": "underline", "color": "black"}}>jordan.n.hoang@gmail.com</p></a>
+              <p style={{"textDecoration": "underline"}}>832.803.8853</p>
             </Col>
             <Col xs={12} md={6}>
               <h1>Send me a message</h1>

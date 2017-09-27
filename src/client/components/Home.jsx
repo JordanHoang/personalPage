@@ -1,5 +1,6 @@
 import React from 'react'
 import Background from './Background.jsx'
+import Footer from './Footer.jsx'
 import reactLogo from '../images/react.svg'
 import jsLogo from '../images/javascript.svg'
 import nodeLogo from '../images/nodejs.svg'
@@ -21,7 +22,7 @@ class Home extends React.Component {
           </div>
           <hr/>
           <div id="technologies">
-            <h3>Technologies I've worked with: </h3>
+            <h3>Technologies I enjoy working with: </h3>
             <div className="technologyLogos">
               <a target="_blank" href="https://www.javascript.com/"><img src={jsLogo} /></a>
               <a target="_blank" href="https://facebook.github.io/react/"><img src={reactLogo} /></a>
@@ -31,7 +32,14 @@ class Home extends React.Component {
               <a target="_blank" href="https://git-scm.com/"><img src={gitLogo} /></a>
             </div>
           </div>
+          <hr/>
+          <div>
+            <p>
+              I am currently looking for a Software Engineering position at a great company that would allow me to use my skills, experience, and passion to help them build useful, amazing applications.
+            </p>
+          </div>
         </div>
+        <Footer/>
       </div>
     )
   }

@@ -283,3 +283,13 @@ body {
   width: 100px;
   margin: 0 10px;
 }
+
+.footer {
+  text-align: center;
+  background-color: rgba(34, 49, 63, 1);
+  padding: 10px 0px;
+}
+
+.footerLink {
+  color: white;
+}

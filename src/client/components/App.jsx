@@ -6,6 +6,7 @@ import Contact from './Contact.jsx'
 import Portfolio from './Portfolio.jsx'
 import About from './About.jsx'
 import Resume from './Resume.jsx'
+import Credits from './Credits.jsx'
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
           <Route path='/resume' component={Resume} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
+          <Route path='/credits' component={Credits} />
         </Switch>
       </main>
     )
