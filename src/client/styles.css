@@ -288,6 +288,7 @@ body {
   text-align: center;
   background-color: rgba(34, 49, 63, 1);
   padding: 10px 0px;
+  border-radius: 0px;
 }
 
 .footerLink {

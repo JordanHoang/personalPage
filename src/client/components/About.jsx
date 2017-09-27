@@ -2,6 +2,7 @@ import React from 'react'
 import Background from './Background.jsx'
 import Timeline from './Timeline.jsx'
 import PhotoGrid from './PhotoGrid.jsx'
+import Footer from './Footer.jsx'
 
 class About extends React.Component {
 
@@ -14,6 +15,7 @@ class About extends React.Component {
           <hr/>
         </div>
         <PhotoGrid/>
+        <Footer/>
       </div>
     )
   }

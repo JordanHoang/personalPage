@@ -22,7 +22,7 @@ class Home extends React.Component {
           </div>
           <hr/>
           <div id="technologies">
-            <h3>Technologies I enjoy working with: </h3>
+            <h3>Technologies I enjoy building with: </h3>
             <div className="technologyLogos">
               <a target="_blank" href="https://www.javascript.com/"><img src={jsLogo} /></a>
               <a target="_blank" href="https://facebook.github.io/react/"><img src={reactLogo} /></a>
