@@ -1,6 +1,5 @@
 import axios from 'axios'
 
-console.log(process.env.NODE_ENV, 'wewewe')
 const ROOT_URL = process.env.NODE_ENV === 'production' ? 'http://jordanhoang.com': 'http://localhost:5151'
 
 export function sendEmail(message, cb) {
