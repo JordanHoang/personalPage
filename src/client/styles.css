@@ -124,6 +124,10 @@ body {
 }
 
 .appLink {
+  color: rgba(34, 49, 63, 1);
+}
+
+.appLink:hover {
   color: rgba(38, 194, 129, 1);
 }
 
