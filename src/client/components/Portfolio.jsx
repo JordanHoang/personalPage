@@ -20,7 +20,7 @@ class Portfolio extends React.Component {
             <Col xs={12} md={5}>
               <a className="appLink" href="http://www.myrentopia.com" target="_blank"><h1>Rentopia</h1></a>
                 <p>Web application that allows for tenants and landlords
-                 to iteract with each other via payments, documents, and messages.
+                 to interact with each other via payments, documents, and messages.
                 </p>
                 <p>Application utilizes Braintree Marketplace's API to
                 handle receving and sending payments
