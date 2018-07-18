@@ -11,7 +11,7 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div>
-        <Background backgroundType={'portfolio'} heading={'PORTFOLIO'} subheading={`Applications I've Built`}/>
+        <Background backgroundType={'portfolio'} heading={'PORTFOLIO'} subheading={`Personal Applications I've Contributed To`}/>
         <Grid>
           <Row>
             <Col xs={12} md={7}>
