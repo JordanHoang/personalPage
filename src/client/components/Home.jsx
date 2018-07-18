@@ -28,7 +28,6 @@ class Home extends React.Component {
               <a target="_blank" href="https://facebook.github.io/react/"><img src={reactLogo} /></a>
               <a target="_blank" href="http://redux.js.org/"><img src={reduxLogo} /></a>
               <a target="_blank" href="https://nodejs.org/en/"><img src={nodeLogo} /></a>
-              <a target="_blank" href="https://www.postgresql.org/"><img src={pgLogo} /></a>
               <a target="_blank" href="https://git-scm.com/"><img src={gitLogo} /></a>
             </div>
           </div>
