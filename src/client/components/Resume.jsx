@@ -25,22 +25,19 @@ const Resume = () => {
               <h3>Strong</h3>
               <ul>
                 <li>Javascript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Express</li>
+                <li>React</li>
+                <li>Redux</li>
                 <li>HTML / CSS</li>
                 <li>RESTful API</li>
                 <li>Git</li>
-                <li>ES2015</li>
+                <li>ES2015+</li>
               </ul>
               <hr/>
               <h3>Experienced</h3>
               <ul>
-                <li>Redux</li>
-                <li>AngularJS</li>
-                <li>Webpack</li>
+                <li>Sass</li>
                 <li>jQuery</li>
-                <li>PostgreSQL</li>
+                <li>Webpack</li>
               </ul>
             </div>
           </Col>
@@ -51,6 +48,15 @@ const Resume = () => {
             <h2>APPLICATIONS</h2>
           </Col>
           <Col xs={6} md={8}>
+            <div className="resumeText">
+              <h3>Centerscape 2.0 | Junior Software Developer</h3>
+              <h4>Enterprise web application that allows customers to track and manage their data center assets throughout the asset’s life cycle</h4>
+              <ul>
+                <li>IRefactored the React Data Grid library to fit requirements from Product Management and UX/UI, including writing custom logic for pagination, sorting, and filtering using our API</li>
+                <li>Built a dynamic form builder function utilizing our existing API that worked with the Redux Form API</li>
+                <li>Created abstracted, reusable components that could be utilized differently throughout the application</li>
+              </ul>
+            </div>
             <div className="resumeText">
               <h3>Rentopia | Full Stack Software Engineer</h3>
               <h4>Web application that allows tenants and landlords to interact via payments, documents, and messaging</h4>
@@ -105,7 +111,7 @@ const Resume = () => {
       </Grid>
       <Footer/>
     </div>
-  )  
+  )
 }
 
 export default Resume
