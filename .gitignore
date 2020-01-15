@@ -7,4 +7,3 @@
 !.elasticbeanstalk/*.global.yml
 
 *.zip
-emailConfig.js

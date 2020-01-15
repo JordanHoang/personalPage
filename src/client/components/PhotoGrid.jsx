@@ -1,13 +1,14 @@
 import React from 'react'
 import { GridList, GridTile } from 'material-ui/GridList'
 import bevo from '../images/bevo.png'
-import breck from '../images/breck.jpg'
+import japan from '../images/japan.jpeg'
 import deepWaterSolo from '../images/deepWaterSolo.jpg'
 import grad from '../images/grad.JPG'
 import greece from '../images/greece.jpg'
 import monkeyIsland from '../images/monkeyIsland.JPG'
 import teton from '../images/teton.jpg'
-import theCatch from '../images/theCatch.png'
+import kona from '../images/kona.jpg'
+import triathlon from '../images/triathlon.jpg'
 
 const styles = {
   root: {
@@ -25,17 +26,17 @@ const styles = {
 
 const tilesData = [
   {
-    img: monkeyIsland,
-    title: 'Monkey Island, Ha Long Bay, Vietnam',
+    img: japan,
+    title: 'Hakone Shrine',
     featured: true
   },
   {
-    img: bevo,
-    title: 'My last home Texas Football game as a student'
+    img: kona,
+    title: `"Kona when she was 3 months old"`
   },
   {
-    img: breck,
-    title: 'Breckenridge, CO, March 2016'
+    img: triathlon,
+    title: 'Malibu Triathlon'
   },
   {
     img: grad,
@@ -48,17 +49,17 @@ const tilesData = [
 
   },
   {
-    img: greece,
-    title: 'Athens, Greece, March 2015'
+    img: monkeyIsland,
+    title: 'Monkey Island, Ha Long Bay, Vietnam',
   },
   {
     img: deepWaterSolo,
     title: 'Deep Water Soloing in Ha Long Bay'
   },
   {
-    img: theCatch,
-    title: `"The catch", 5th round of Texas 5A playoffs, 2012`
-  },
+    img: greece,
+    title: 'Athens, Greece, March 2015'
+  }
 ]
 
 const PhotoGrid = () => {

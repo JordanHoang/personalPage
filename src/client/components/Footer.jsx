@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </ul>
       <br/>
-      <p>© 2017 Jordan Hoang. All rights reserved.</p>
+      <p>© 2019 Jordan Hoang. All rights reserved.</p>
       <Link className="footerLink" to='/credits' target="_blank">Credits</Link>
     </div>
   )
